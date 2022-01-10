@@ -40,7 +40,6 @@
   :pin "40cc1ac76d741055cbefa13860d9f070a7ade001")
 (package! ox-clip :pin "05a14d56bbffe569d86f20b49ae31ed2ac7d1101")
 (package! toc-org :pin "df4ad6ff15e3b02f6322305638a441a636b9b37e")
-(package! org-cliplink :pin "13e0940b65d22bec34e2de4bc8cba1412a7abfbc")
 
 (when (featurep! :editor evil +everywhere)
   (package! evil-org

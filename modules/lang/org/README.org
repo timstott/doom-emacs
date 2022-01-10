@@ -85,7 +85,6 @@ https://www.mfoot.com/blog/2015/11/22/literate-emacs-configuration-with-org-mode
 ** Plugins
 + [[https://github.com/hniksic/emacs-htmlize][htmlize]]
 + [[https://github.com/astahlman/ob-async][ob-async]]
-+ [[https://github.com/rexim/org-cliplink][org-cliplink]]
 + [[https://github.com/magit/orgit][orgit]]
 + [[https://orgmode.org/][org-plus-contrib]]
 + [[https://github.com/TobiasZawada/org-yt][org-yt]]

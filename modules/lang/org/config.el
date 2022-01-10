@@ -906,7 +906,6 @@ between the two."
          "v" #'+org/goto-visible
          "x" #'org-capture-goto-last-stored)
         (:prefix ("l" . "links")
-         "c" #'org-cliplink
          "d" #'+org/remove-link
          "i" #'org-id-store-link
          "l" #'org-insert-link
