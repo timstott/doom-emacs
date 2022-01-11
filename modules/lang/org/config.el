@@ -548,14 +548,7 @@ relative to `org-directory', unless it is an absolute path."
   (org-link-set-parameters "http"  :image-data-fun #'+org-http-image-data-fn)
   (org-link-set-parameters "https" :image-data-fun #'+org-http-image-data-fn)
   (org-link-set-parameters "img"   :image-data-fun #'+org-inline-image-data-fn)
-
-  ;; Add support for youtube links + previews
-  (require 'org-yt nil t)
-
-  (defadvice! +org-dont-preview-if-disabled-a (&rest _)
-    "Make `org-yt' respect `org-display-remote-inline-images'."
-    :before-while #'org-yt-image-data-fun
-    (not (eq org-display-remote-inline-images 'skip))))
+  )
 
 
 (defun +org-init-export-h ()
